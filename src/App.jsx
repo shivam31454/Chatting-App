@@ -4,7 +4,7 @@ import HomePage from './pages/HomePage'
 import LoginPage from './pages/LoginPage'
 import ProfilePage from './pages/ProfilePage'
 
-const App = () => {
+const App=()=>{
   return (
     <div className="bg-[url('./src/assets/bgImage.svg')] bg-contain">
       <Routes>
