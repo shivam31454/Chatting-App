@@ -8,7 +8,7 @@ const ChatContainer = ({selectedUser,setSelectedUser}) => {
         <img src={assets.profile_martin} alt="" className='w-8 rounded-full' />
         <p  className='flex-1 text-lg text-white  flex items-center gap-2'>
           Martin Johnson
-          <span className='w-2 h-2 rounded-full  bg-green-500'></span>
+          <span className='w-2 h-2 rounded-full  bg-green-499'></span>
         </p>
         <img onClick={()=>{
           setSelectedUser(null)
