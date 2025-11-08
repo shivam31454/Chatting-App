@@ -15,7 +15,7 @@ const ChatContainer = ({selectedUser,setSelectedUser}) => {
           setSelectedUser(null)
         }} src={assets.arrow_icon} alt="" className='md:hidden max-w-7'/>
       </div>
-      {/* chat area */}
+      {/* chat  area */}
       <div className='flex flex-col h-[calc(199%-120px)] overflow-y-scroll p-3 pb-6'>
         {messagesDummyData.map((msg,index)=>{
           <div key={index} className={`flex  items-end gap-2 justify-end ${msg.senderId!== '680f50ef10f3cd28382ecf9' && 'flex-row-reverse'}`}>
